@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test:
-    runs-on: 3900x
+    runs-on: docker
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
