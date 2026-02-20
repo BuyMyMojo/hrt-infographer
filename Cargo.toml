@@ -16,3 +16,4 @@ inherits = "release"
 lto = true
 
 [dependencies]
+oxidize-pdf = "1.7.1"
